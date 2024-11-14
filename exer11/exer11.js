@@ -1,0 +1,30 @@
+var s = parseFloat(prompt("Informe o seu salario: "))
+if (s<280.00){
+  var n =  (s*0.20)
+  var ns = (n+s)
+  alert("O salário antes do reajuste R$ "+s)
+  alert("O percentual de aumento aplicado foi de 15%")
+  alert("O valor do aumento foi R$ "+n)
+  alert("Novo salário após o aumento R$ "+ns)
+}else if(s>280 && s<700){
+    var novo =parseFloat (s*0.15)
+    var novos =parseFloat (novo+s)
+    alert("O salário antes do reajuste R$ "+s)
+  alert("O percentual de aumento aplicado foi de 15%")
+  alert("O valor do aumento foi R$ "+novo)
+  alert("Novo salário após o aumento R$ "+novos)
+}else if(s>700 && s<1500){
+    var nv =parseFloat (s*0.10)
+    var nvs =parseFloat (nv+s)
+    alert("O salário antes do reajuste R$ "+s)
+  alert("O percentual de aumento aplicado foi de 10%")
+  alert("O valor do aumento foi R$ "+nv)
+  alert("Novo salário após o aumento R$ "+nvs)
+}else if(s>1500){
+    var no =parseFloat (s*0.05)
+    var nov =parseFloat (no+s)
+    alert("O salário antes do reajuste R$ "+s)
+    alert("O percentual de aumento aplicado foi de 5%")
+    alert("O valor do aumento foi R$ "+no)
+    alert("Novo salário após o aumento R$ "+nov)
+}
